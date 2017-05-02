@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="js-body" class="about">
+  {% include header.html %}
+  <div class="welcome">
+    <h1>Welcome to Hourglass Bellydance!</h1>
+    <div class="welcome--inner">
+      <h6>Mission Statement:</h6>
+      <p>Hourglass Bellydance is a school of Middle Eastern and American style belly dance offering a variety of classes for women of all ages.  We serve the beginner through advanced student and provide performance opportunities for all.  Our classes are friendly and fun, of the highest quality and stress the importance of proper belly dance technique.  We believe belly dance to be an enjoyable way to gain health, both spiritually and physically.  Our goal is to provide an opportunity for women from all walks of life to learn and experience the art of belly dance while improving self-esteem through reconnection with their femininity and sensuality.</p>
+    </div>
+  </div>
+  <div class="photo-panel">
+    <div class="photo-panel-inner" style="background-image: url('{{ site.url }}/images/072113ss7_3990_214_ancientdanceweb.jpg'); width: 50%;">&nbsp;</div>
+    <div class="photo-panel-inner" style="background-image: url('{{ site.url }}/images/072113ss7_4654_878_ancientdanceweb.jpg'); width: 30%;">&nbsp;</div>
+    <div class="photo-panel-inner" style="background-image: url('{{ site.url }}/images/042912dsc_7523_1081hourglassjpg.jpg'); width: 20%;">&nbsp;</div>
+  </div>
+  <div class="studio">
+    <div class="studio--images">
+      <img src="{{ site.url }}/images/DSC01765.jpg">
+      <img src="{{ site.url }}/images/DSC01769.jpg">
+    </div>
+    <div class="studio--text">
+      <h3>The Hourglass Bellydance studio is located in Corpus Christi, TX.</h3>
+      <h6>Location:</h6>
+      <h4>6500 S Padre Island Dr #19<br /> Corpus Christi, TX 78412</h4>
+      <h6>Phone:</h6>
+      <h4>(361) 946-4052</h4>
+    </div>
+  </div>
+  <ul  id="links">
+      <li ><h5><em>Take a</em><br />
+        CLASS</h5>
+      </li>
+      <li ><h5><em>Browse our</em><br />
+        MEDIA</h5>
+      </li>
+      <li ><h5><em>Get more</em><br />
+        INFO</h5>
+      </li>
+  </ul>
+
+  {{ content }}
+  </body>
+</html>

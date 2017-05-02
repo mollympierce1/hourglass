@@ -1,0 +1,282 @@
+body {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+
+.brand {
+    width: 30%;
+}
+
+nav {
+    float: right;
+    width: 70%;
+
+
+ul {
+    margin: 0px;
+    list-style: none;
+    float: right;
+    display: flex;
+}
+
+li {
+    padding: 0px 1em;
+}
+}
+
+.brand a {
+    padding: 0px 1em;
+}
+
+
+ul {
+    list-style: none;
+  }
+
+
+h1, h2, h3, h4, h5, h6, a.name {
+font-family: 'Cormorant', Serif;
+color: $yellow;
+font-weight: 300;
+}
+
+body {
+font-family: 'Alegreya Sans', sans-serif;
+color: #fff;
+font-weight: 300;
+}
+
+
+
+
+
+
+
+// HOME //
+
+body.home {
+  background-image: url("http://localhost:4000/images/hourglass-bellydance-bg-2.jpg");
+  background-size: 100%;
+  background-position: left 15%;
+  background-attachment: fixed;
+}
+
+.hero {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      color: $green;
+    }
+}
+
+.hero--inner {
+    float: none;
+    margin: -6em auto 0px;
+}
+
+
+#lorrie {
+    margin-right: 15%;
+    width: 400px;
+    float: none;
+    margin-left: auto;
+}
+
+#lorrie h4 {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+div#hero--address {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    letter-spacing: 1px;
+}
+
+.hero {
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.brand a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+nav ul {
+    line-height: 2.5em;
+}
+
+nav a {
+    color: $pink;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+
+h5 {
+    font-size: 1.5em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+    background: green;
+    padding: 0.75em 1.2em;
+    border: 1px solid #fff;
+}
+
+a.button {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+#lucky-woman {
+    background: $purple;
+    padding: 6em;
+}
+
+
+#lucky-woman--left {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    color: $yellow;
+}
+
+#lucky-woman--right {
+    color: red;
+}
+
+
+
+
+ul#links {
+    background: red;
+    margin: 0px;
+    padding: 6em;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+#links li {
+    width: 33%;
+    text-align: center;
+
+h5 {
+  color: $purple;
+}
+}
+
+
+
+
+
+.about {
+    background: $purple;
+}
+
+.welcome {
+    padding: 3em 6em;
+}
+
+.welcome--inner {
+    max-width: 900px;
+    float: none;
+    margin: 3em 0 6em auto;
+}
+
+h6 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 0.3em;
+}
+
+p {
+    line-height: 1.45;
+    letter-spacing: 0.04em;
+}
+
+.photo-panel {
+  display: flex;
+}
+
+.photo-panel-inner {
+    height: 20em;
+    background-size: cover;
+    background-position-y: 60%;
+}
+
+
+
+
+
+.studio--images {width: 40%;}
+
+.studio--images img {
+    max-width: 460px;
+    display: block;
+    padding-bottom: 3em;
+}
+
+.studio {
+    display: flex;
+    padding: 6em;
+    background: $pink;
+}
+
+.studio--text {
+    padding: 0 3em;
+    width: 60%;
+}
+
+
+
+.classes {
+    padding: 6em;
+    background: $blue;
+}
+
+.classes--day {
+    display: flex;
+    justify-content: space-between;
+}
+
+.classes--class {
+    width: 49%;
+}
