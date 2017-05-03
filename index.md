@@ -5,7 +5,7 @@
 layout: blank
 ---
 
-<img src="{{ site.url }}/images/hourglass-bellydance.png" />
+<img src="http://www.hourglassbellydance.com/images/hourglass-bellydance.png" />
 
 We are giving our website a little tune-up! In the meantime, please visit our <a href="https://www.facebook.com/Hourglass-Bellydance-Studio-128096677236090/">Facebook</a>, or give me a call at <a href="tel:3619464052">(361) 946-4052</a> for more information. Sorry for the inconvenience!
 

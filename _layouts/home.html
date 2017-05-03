@@ -6,30 +6,30 @@
   <div class="hero">
     <div class="hero--inner">
       <h1>Because you've got hips!</h1>
+      <a href="{{ site.url }}/classes" class="button">View Class Schedule</a>
     </div>
     <div id="hero--address">
       <p>(361) 946-4052 - 6500 S Padre Island Dr #19, Corpus Christi, TX 78412</p>
     </div>
   </div>
-  <div id="lucky-woman">
+  <div id="lucky-woman" class="container">
     <h3>"It's a lucky woman who walks into a belly dance class.  Once a week, she will be able to step out of her everyday world and enter an exotic world of music, movement, color and dance!  She will always have a fun, safe way to exercise, she will always be able to play dress up, and she will always have a great group of friends.  Most importantly, she will discover a sense of self-confidence she never knew before and, as she moves through the many phases of her life, she will forever be aware of her innate beauty, femininity, strength and sensuality."</h3>
     <div id="lorrie">
         <img src="{{ site.url }}/images/042912dsc_7588_1146hourglassjpg.gif" />
         <h4>- Lorrie Pierce, <em>Director</em></h4>
     </div>
   </div>
-  <ul  id="links">
+  <ul  id="links" class="container">
       <li ><h5><em>Take a</em><br />
-        CLASS</h5>
+        <a href="{{ site.url }}/classes">CLASS</a></h5>
       </li>
       <li ><h5><em>Browse our</em><br />
-        MEDIA</h5>
+        <a href="{{ site.url }}/media">MEDIA</a></h5>
       </li>
       <li ><h5><em>Get more</em><br />
-        INFO</h5>
+        <a href="{{ site.url }}/classes">INFO</a></h5>
       </li>
   </ul>
-
-  {{ content }}
+  {% include footer.html %}
   </body>
 </html>
