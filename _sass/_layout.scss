@@ -42,20 +42,23 @@ a.button {
 // FONTS //
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Cormorant', Serif;
+font-family: $heading-font;
 color: $yellow;
 font-weight: 300;
+margin-top: 0;
 }
 
 body {
-font-family: 'Alegreya Sans', sans-serif;
+font-family: $body-font;
 color: #fff;
-font-weight: 300;
+font-weight: 400;
 }
 
 p {
     line-height: 1.45;
     letter-spacing: 0.04em;
+    font-weight: 400;
+    margin-bottom: 1.5em;
 }
 
 a {
@@ -68,30 +71,33 @@ a {
 
 h1 {
     font-size: 3.5em;
+    margin-bottom: 1em;
 }
 
 h3 {
     font-size: 2em;
     line-height: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 h4 {
   font-size: 1.75em;
+  margin-bottom: 1.5em;
 }
 
 
 h5 {
     font-size: 1.5em;
     margin-top: 0.2em;
-    margin-bottom: 0.3em;
+    margin-bottom: 1.3em;
 }
 
 h6 {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: $body-font;
   font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  margin-bottom: 0.6em;
+  margin-bottom: 1.3em;
 }
 
 
@@ -117,8 +123,8 @@ header {
         text-decoration: none;
         font-size: 2em;
         padding: 0px 1em;
-        color: #fff;
-        font-family: 'Cormorant', Serif;
+        color: $yellow;
+        font-family: $heading-font;
         text-shadow: 0px 0px 16px $purple;
     }
 }
@@ -141,7 +147,7 @@ nav {
     }
 
     a {
-        color: #fff;
+        color: $yellow-light;
         text-decoration: none;
         letter-spacing: 1px;
         font-size: 1.1em;
@@ -157,9 +163,9 @@ nav {
 // HOME //
 
 body.home {
-  background-image: url("http://localhost:4000/images/hourglass-bellydance-bg-2.jpg");
+  background-image: url("http://localhost:4000/images/042912DSC_6477_035HourglassJPG.jpg");
   background-size: 100%;
-  background-position: left 15%;
+  background-position: left 85%;
   background-attachment: fixed;
 }
 
@@ -172,7 +178,6 @@ body.home {
 
     h1 {
       color: $green;
-      margin-bottom: 1.5em;
     }
 }
 
@@ -183,10 +188,11 @@ body.home {
 
 
 #lorrie {
-    margin-right: 15%;
-    width: 400px;
-    float: none;
-    margin-left: auto;
+      width: 400px;
+      float: none;
+      margin-left: auto;
+      margin: 0 2em;
+
 
     h4 {
       font-size: 1.5em;
@@ -202,9 +208,21 @@ body.home {
 }
 
 
-#lucky-woman {
+#welcome {
     background: $pink;
-    padding: 6em;
+    display: flex;
+
+    p {
+      color: $pink-light;
+    }
+}
+
+#lucky-woman {
+    background: $green;
+
+    h3 {
+      color: $green-light;
+    }
 }
 
 
@@ -217,6 +235,10 @@ body.home {
 
 #lucky-woman--right {
     color: red;
+}
+
+#welcome--right {
+  width: 60%;
 }
 
 
@@ -247,8 +269,8 @@ body.home {
 
 .hero h1 {
     font-weight: 600;
-    color: gold;
-    text-shadow: 0px 0px 16px $purple;
+    color: #fff;
+    text-shadow: 0px 0px 16px #000;
 }
 
 #hero--address {
@@ -325,15 +347,30 @@ hero--address p {
     h3 {
         border-bottom: 1px solid #fff;
         padding-bottom: 0.3em;
-        font-family: 'Alegreya Sans', sans-serif;
+        font-family: $body-font;
         letter-spacing: 2px;
         font-weight: 600;
+        margin-bottom: 1em;
+        margin-top: 1.5em;
+    }
+
+    h4 {
+      color: #fff;
+      margin-bottom: 0.3em;
     }
 
     h6 {
-      color: darkturquoise;
+      color: #fff;
+      letter-spacing: 0.02em;
+      text-transform: none;
+      font-size: 1em;
+    }
+
+    p {
+      color: $blue-light;
     }
 }
+
 
 .classes--day {
     display: flex;
@@ -376,10 +413,155 @@ hero--address p {
 
 
 a.button {
-    font-family: 'cormorant';
+    font-family: $heading-font;
     text-transform: none;
     font-weight: 600;
-    background: $blue;
+    background: $red;
     color: white;
     border: 0px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+
+
+.brand {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    float: none;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px;
+}
+
+nav li {
+    float: none;
+    margin: 0px auto;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.hero {
+    height: 80vh;
+}
+
+.hero--inner {
+    padding: 3em;
+}
+
+.container {
+    padding: 3em 2em;
+}
+
+#welcome--left {
+    width: 100%;
+}
+
+
+#links li {
+    width: 100%;
+}
+
+#links {
+    flex-wrap: wrap;
+}
+
+body.home {
+    background-size: cover;
+}
+
+#lorrie {
+    width: 100%;
+    margin: 0px;
+    max-width: 100%;
+}
+
+#lorrie img {
+    max-width: 100%;
+}
+
+h3 {
+    margin-bottom: 0.75em;
+}
+
+#lucky-woman h3 {
+    font-size: 1.4rem;
+}
+
+.footer img {
+    max-width: 100%;
+}
+
+.welcome.container {
+    padding: 3em 2em;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.7;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+.photo-panel {
+}
+
+.studio {
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.studio--images img {
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.studio--images {
+    width: 100%;
+}
+
+.studio--text {
+    padding: 0px;
+    width: 100%;
+}
+
+.tuition .flex div {
+    width: 100%;
+    padding-top: 2em;
+}
+
+.classes--class {
+    width: 100%;
+}
+
+#hero--address p {
+    max-width: 100%;
+    padding: 0 1em;
+}
+
+.hero {
+    height: 85vh;
+}
+
 }

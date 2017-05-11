@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="js-body" class="about">
+  {% include header.html %}
+  <div class="container">
+    {{ content }}
+  </div>
+  <ul  id="links" class="container">
+      <li ><h5><em><a href="{{ site.url }}/classes">Take a</em><br />
+        CLASS</a></h5>
+      </li>
+      <li ><h5><em><a href="{{ site.url }}/media">Browse our</em><br />
+        MEDIA</a></h5>
+      </li>
+      <li ><h5><em><a href="{{ site.url }}/contact">View</em><br />
+        CONTACT INFO</a></h5>
+      </li>
+  </ul>
+  {% include footer.html %}
+  </body>
+</html>
