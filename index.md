@@ -13,7 +13,7 @@ Thank you, <br />
 Lorrie, Director, Hourglass Bellydance <br />
 <a href="lorrie@hourglassbellydance.com">lorrie@hourglassbellydance.com</a>
 
-<div style="border: 1px solid purple; margin: 1em;"><h4>The Next Beginner Series Starts June 6!</h4>
+<div style="border: 1px solid purple; margin: 1em; padding-bottom: 30px;"><h4>The Next Beginner Series Starts June 6!</h4>
 Classes are on Tuesdays 5:30 to 6:30 and Wednesdays 6:15 to 7:15 pm<br />
 Reserve Your Spot Today!
 <br />Call 361-946-4052</div>
