@@ -2,6 +2,13 @@ body {
     margin: 0px;
 }
 
+@media screen and (max-width: 640px) {
+  body {
+    text-align: center;
+  }
+
+}
+
 ul, li {
     list-style: none;
 }
@@ -36,6 +43,64 @@ a.button {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+
+.twenty {
+  width: 20%;
+}
+
+.twenty-five {
+  width: 25%;
+}
+
+.thirty {
+  width: 30%;
+}
+
+.forty {
+  width: 40%;
+}
+
+.fifty {
+  width: 50%;
+}
+
+.sixty {
+  width: 60%;
+}
+
+.seventy-five {
+  width: 75%;
+}
+
+@media screen and (max-width: 640px) {
+.twenty, .twenty-five, .thirty, .forty, .fifty, .sixty, .seventy-five { width: 100%;}
+
+.no-display {
+    display: none;
+}
+
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video {
+  width: 50%;
+  margin-bottom: 2em;
+
+  h3 {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .video {
+    width: 100%;
+  }
 }
 
 
@@ -104,7 +169,6 @@ h6 {
 
 
 
-
 // HEADER //
 
 header {
@@ -114,10 +178,11 @@ header {
     padding-top: 1em;
     z-index: 100;
     position: relative;
+    padding-bottom: 1em;
 }
 
 .brand {
-    width: 30%;
+    width: 40%;
 
     a {
         text-decoration: none;
@@ -131,7 +196,7 @@ header {
 
 nav {
     float: right;
-    width: 70%;
+    width: 60%;
 
 
     ul {
@@ -163,7 +228,7 @@ nav {
 // HOME //
 
 body.home {
-  background-image: url("http://localhost:4000/images/042912DSC_6477_035HourglassJPG.jpg");
+  background-image: url("/images/042912DSC_6477_035HourglassJPG.jpg");
   background-size: 100%;
   background-position: left 85%;
   background-attachment: fixed;
@@ -205,12 +270,17 @@ body.home {
     position: absolute;
     bottom: 0px;
     letter-spacing: 1px;
+
+    p {
+      margin-bottom: 1em;
+    }
 }
 
 
 #welcome {
     background: $pink;
     display: flex;
+    margin-top: -10px;
 
     p {
       color: $pink-light;
@@ -308,6 +378,12 @@ hero--address p {
 }
 
 
+@media (max-width: 640px) {
+.photo-panel-inner {
+    height: 18em;
+    background-position: center center;
+}
+}
 
 .studio {
     display: flex;
@@ -325,10 +401,14 @@ hero--address p {
   }
 }
 
+
 .studio--text {
     padding: 0 3em;
     width: 60%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 
 // CLASSES //
@@ -395,12 +475,6 @@ hero--address p {
   }
 }
 
-.class .photo-panel-inner {
-  height: 26em;
-  background-position-y: 4%;
-}
-
-
 
 .footer {
     background: $blue;
@@ -423,10 +497,23 @@ a.button {
 
 
 
+@media screen and (max-width: 1350px) {
 
+#lorrie {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2em;
+}
 
+div#welcome--right {
+    width: 100%;
+}
 
+#lorrie h1 {
+    margin-right: 20px;
+}
 
+}
 
 
 @media screen and (max-width: 960px) {
@@ -524,9 +611,6 @@ h6 {
     font-size: 0.8em;
 }
 
-.photo-panel {
-}
-
 .studio {
     padding: 2em;
     flex-wrap: wrap;
@@ -542,8 +626,8 @@ h6 {
 }
 
 .studio--text {
-    padding: 0px;
-    width: 100%;
+  padding: 0;
+  width: 100%;
 }
 
 .tuition .flex div {
@@ -564,4 +648,31 @@ h6 {
     height: 85vh;
 }
 
+}
+
+@media screen and (max-width: 640px) {
+
+  body.home {
+    background-size: cover;
+    background-position: center bottom;
+}
+
+#hero--address {
+    margin-bottom: -10px;
+}
+
+#lorrie {
+    width: 100%;
+    display: block;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+div#welcome--right {
+    width: 100%;
+}
+
+#lorrie h1 {
+    margin-right: 0px;
+}
 }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: contact
+title: Contact
 permalink: /contact/
 ---
 
@@ -10,4 +10,8 @@ The Hourglass Bellydance studio is located between Airline and Nile on South Pad
 
 If you have any questions, don't hesitate to call!
 
-### Phone: 361-946-4052, Email: lorrie@hourglassbellydance.com
+### Phone:
+361-946-4052
+
+### Email:
+lorrie@hourglassbellydance.com
