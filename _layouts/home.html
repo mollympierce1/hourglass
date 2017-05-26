@@ -1,51 +1,41 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body id="js-body" class="home">
+<body id="js-body">
   {% include header.html %}
+  <div class="wrapper" id="home">
   <div class="hero">
-    <div class="hero--inner">
-      <h1>Because you've got hips!</h1>
-      <a href="{{ site.url }}/classes" class="button">View Class Schedule</a>
-    </div>
-    <div id="hero--address">
-      <p>(361) 946-4052 - 6500 S Padre Island Dr #19, Corpus Christi, TX 78412</p>
-    </div>
   </div>
+  <div id="lucky-woman" class="container centered">
+      <h3>"It's a lucky woman who walks into a belly dance class.  Once a week, she will be able to step out of her everyday world and enter an exotic world of music, movement, color and dance!  She will always have a fun, safe way to exercise, she will always be able to play dress up, and she will always have a great group of friends.  Most importantly, she will discover a sense of self-confidence she never knew before and, as she moves through the many phases of her life, she will forever be aware of her innate beauty, femininity, strength and sensuality."</h3>
+    </div>
+    <div id="featured" class="container flex flex-wrap">
+      <div class="forty">
+      <img src="images/hourglass-bellydance-18.jpg">
+    </div>
+      <div class="fifty">
+      <h1>The Next Beginner Series Starts June 6!</h1>
+      <h4>Classes are on Tuesdays 5:30 to 6:30 and Wednesdays 6:15 to 7:15 pm</h4>
+      <h4>Reserve Your Spot Today!<br />
+        Call 361-946-4052</h4>
+    </div>
+    </div>
   <div id="welcome" class="container flex flex-wrap">
-    <div id="lorrie">
-        <h1>Welcome to Hourglass Bellydance!</h1>
+    <div class="fifty">
+      <h1>Welcome to Hourglass Bellydance!</h1>
+      <h4>Hi! My name is Lorrie Pierce and I am the owner and director of Hourglass Bellydance.  I want your experience at Hourglass to be a positive one, so here is a little information about classes.</h4>
+      <a href="{{ site.url }}/about" class="button">Learn More</a>
+    </div>
+    <div class="forty">
         <img src="{{ site.url }}/images/042912dsc_7588_1146hourglassjpg.gif" />
     </div>
-    <div id="welcome--right">
-      <p>I'm glad you are here!  My name is Lorrie Pierce and I am the owner and director of Hourglass Bellydance.  I want your experience at Hourglass to be a positive one, so here is a little information about classes.</p>
-      <p>The first time you come to class, please arrive about five or ten minutes early.  I will ask you to sign a short release which will also serve as your registration form should you decide to continue. You can consider your first class a try out class. If at the end of class, you decide it's just not for you, the fee is $10, but if you would like to continue, you are good to go.</p>
-      <p>Wear anything you can comfortably move and stretch in. Students wear all sorts of things like stretch pants, leggings, tank and crop tops, etc. We usually dance barefoot, but if you would like to wear a sock or dance shoe, that is fine as well.  I provide coined hip wraps for in class practice.</p>
-      <p>If you are new to belly dance, you will begin with a twelve week start up series called the <a href="#">Fundamentals of Bellydance.</a>  Please <a href="#">click here</a> for information about those classes.</p>
-      <p>Our studio is located between Airline and Nile on South Padre Island Drive, across from Century 16 Theaters. The address is 6500 SPID, Suite #19.</p>
-      <p>If you have any questions, don't hesitate to give me a call at 361-946-4052 or email me at lorrie@hourglassbellydance.com. I do so love this dance and look forward to sharing it with you!</p>
-      <h4>- Lorrie Pierce, <em>Director</em></h4>
-    </div>
-  </div>
-<div id="lucky-woman" class="container">
-    <h3>"It's a lucky woman who walks into a belly dance class.  Once a week, she will be able to step out of her everyday world and enter an exotic world of music, movement, color and dance!  She will always have a fun, safe way to exercise, she will always be able to play dress up, and she will always have a great group of friends.  Most importantly, she will discover a sense of self-confidence she never knew before and, as she moves through the many phases of her life, she will forever be aware of her innate beauty, femininity, strength and sensuality."</h3>
   </div>
   <div class="photo-panel">
-    <div class="photo-panel-inner thirty no-display" style="background-image: url('{{ site.url }}/images/072113ss7_4284_508_ancientdanceweb.jpg');">&nbsp;</div>
-    <div class="photo-panel-inner forty" style="background-image: url('{{ site.url }}/images/hourglass-bellydance-bg-2.jpg');">&nbsp;</div>
-    <div class="photo-panel-inner thirty no-display" style="background-image: url('{{ site.url }}/images/092112DSC_0123_0686Bailando-ClassJPG.jpg');">&nbsp;</div>
+    <div class="photo-panel-inner thirty no-display" style="background-image: url('{{ site.url }}/images/hourglass-bellydance-23.jpg');">&nbsp;</div>
+    <div class="photo-panel-inner forty no-display" style="background-image: url('{{ site.url }}/images/hourglass-bellydance-21.jpg'); background-position: 10% 30%;">&nbsp;</div>
+    <div class="photo-panel-inner thirty" style="background-image: url('{{ site.url }}/images/hourglass-bellydance-10.jpg');">&nbsp;</div>
   </div>
-  <ul  id="links" class="container">
-      <li ><h5><em>Take a</em><br />
-        <a href="{{ site.url }}/classes">CLASS</a></h5>
-      </li>
-      <li ><h5><em>Browse our</em><br />
-        <a href="{{ site.url }}/media">MEDIA</a></h5>
-      </li>
-      <li ><h5><em>Get more</em><br />
-        <a href="{{ site.url }}/classes">INFO</a></h5>
-      </li>
-  </ul>
   {% include footer.html %}
+  </div>
   </body>
 </html>

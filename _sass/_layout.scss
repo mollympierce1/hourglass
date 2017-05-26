@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    background-image: url("/images/43242.jpg");
+    background-attachment: fixed;
 }
 
 @media screen and (max-width: 640px) {
@@ -7,6 +9,17 @@ body {
     text-align: center;
   }
 
+}
+
+img {
+  max-width: 100%;
+}
+.wrapper {
+    max-width: 90%;
+    float: none;
+    margin: 0px auto;
+    box-shadow: 0px 0px 50px $purple;
+    margin-bottom: 4em;
 }
 
 ul, li {
@@ -27,11 +40,11 @@ a:hover {
 }
 
 .flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
-
 .button {
     background: green;
     padding: 0.75em 1.2em;
@@ -115,7 +128,7 @@ margin-top: 0;
 
 body {
 font-family: $body-font;
-color: #fff;
+color: $tan;
 font-weight: 400;
 }
 
@@ -146,6 +159,8 @@ h3 {
 }
 
 h4 {
+    font-family: $body-font;
+    color: $tan;
   font-size: 1.75em;
   margin-bottom: 1.5em;
 }
@@ -172,13 +187,15 @@ h6 {
 // HEADER //
 
 header {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 1em;
+    padding-top: 1.5em;
     z-index: 100;
     position: relative;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
+    float: none;
+    margin: 0px auto;
 }
 
 .brand {
@@ -187,7 +204,7 @@ header {
     a {
         text-decoration: none;
         font-size: 2em;
-        padding: 0px 1em;
+        padding: 0px;
         color: $yellow;
         font-family: $heading-font;
         text-shadow: 0px 0px 16px $purple;
@@ -227,19 +244,17 @@ nav {
 
 // HOME //
 
-body.home {
-  background-image: url("/images/042912DSC_6477_035HourglassJPG.jpg");
-  background-size: 100%;
-  background-position: left 85%;
-  background-attachment: fixed;
-}
+
 
 .hero {
     display: flex;
-    height: 100vh;
+    height: 40vh;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    background-image: url("/images/hero.png");
+    background-size: cover;
+    background-position: center top;
 
     h1 {
       color: $green;
@@ -253,7 +268,6 @@ body.home {
 
 
 #lorrie {
-      width: 400px;
       float: none;
       margin-left: auto;
       margin: 0 2em;
@@ -267,8 +281,9 @@ body.home {
 
 #hero--address {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
+    left: 0px;
     letter-spacing: 1px;
 
     p {
@@ -288,12 +303,13 @@ body.home {
 }
 
 #lucky-woman {
-    background: $green;
+    background: $purple;
 
     h3 {
-      color: $green-light;
+      color: $tan;
     }
 }
+
 
 
 #lucky-woman--left {
@@ -311,7 +327,9 @@ body.home {
   width: 60%;
 }
 
-
+#featured {
+  background: $red;
+}
 
 #links {
     background: $yellow;
@@ -347,10 +365,6 @@ body.home {
     background: $purple;
 }
 
-.hero {
-    height: 90vh;
-}
-
 hero--address p {
     line-height: 0.75;
 }
@@ -359,7 +373,7 @@ hero--address p {
 
 // ABOUT //
 
-.about {
+#about {
     background: $purple;
 }
 
@@ -425,7 +439,7 @@ hero--address p {
     background: $blue;
 
     h3 {
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid $tan;
         padding-bottom: 0.3em;
         font-family: $body-font;
         letter-spacing: 2px;
@@ -435,19 +449,19 @@ hero--address p {
     }
 
     h4 {
-      color: #fff;
+      color: $tan;
       margin-bottom: 0.3em;
     }
 
     h6 {
-      color: #fff;
+      color: $tan;
       letter-spacing: 0.02em;
       text-transform: none;
       font-size: 1em;
     }
 
     p {
-      color: $blue-light;
+      color: #fff;
     }
 }
 
@@ -500,14 +514,10 @@ a.button {
 @media screen and (max-width: 1350px) {
 
 #lorrie {
-    width: 100%;
     display: flex;
     margin-bottom: 2em;
 }
 
-div#welcome--right {
-    width: 100%;
-}
 
 #lorrie h1 {
     margin-right: 20px;
@@ -573,13 +583,7 @@ body.home {
 }
 
 #lorrie {
-    width: 100%;
     margin: 0px;
-    max-width: 100%;
-}
-
-#lorrie img {
-    max-width: 100%;
 }
 
 h3 {
@@ -662,7 +666,6 @@ h6 {
 }
 
 #lorrie {
-    width: 100%;
     display: block;
     margin-bottom: 2em;
     text-align: center;
