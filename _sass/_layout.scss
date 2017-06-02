@@ -172,8 +172,9 @@ h3 {
 h4 {
     font-family: $body-font;
     color: $tan;
-  font-size: 1.75em;
-  margin-bottom: 1.5em;
+    font-size: 1.65em;
+    margin-bottom: 1.5em;
+    line-height: 1.35;
 }
 
 h5 {
@@ -240,10 +241,11 @@ nav {
     }
 
     a {
-        color: $yellow-light;
+        color: $tan;
         text-decoration: none;
-        letter-spacing: 1px;
-        font-size: 1.1em;
+        letter-spacing: 1.3px;
+        font-size: 1em;
+        text-transform: uppercase;
     }
 
     a:hover {
