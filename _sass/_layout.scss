@@ -135,6 +135,8 @@ font-weight: 300;
 margin-top: 0;
 }
 
+
+
 body {
 font-family: $body-font;
 color: $tan;
@@ -174,11 +176,11 @@ h4 {
   margin-bottom: 1.5em;
 }
 
-
 h5 {
     font-size: 1.5em;
     margin-top: 0.2em;
     margin-bottom: 1.3em;
+    line-height: 1.65;
 }
 
 h6 {
