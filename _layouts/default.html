@@ -3,21 +3,12 @@
 {% include head.html %}
 <body id="js-body" class="about">
   {% include header.html %}
+  <div class="wrapper" id="default">
   <div class="container" style="background-color: {{ page.background-color }}">
     <h1>{{ page.title }}</h1>
     {{ content }}
   </div>
-  <ul  id="links" class="container">
-      <li ><h5><em><a href="{{ site.url }}/classes">Take a</em><br />
-        CLASS</a></h5>
-      </li>
-      <li ><h5><em><a href="{{ site.url }}/media">Browse our</em><br />
-        MEDIA</a></h5>
-      </li>
-      <li ><h5><em><a href="{{ site.url }}/contact">View</em><br />
-        CONTACT INFO</a></h5>
-      </li>
-  </ul>
   {% include footer.html %}
   </body>
+</div>
 </html>
