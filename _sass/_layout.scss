@@ -265,7 +265,7 @@ nav {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    background-image: url("/images/hero.png");
+    background-image: url("/images/rsz_1hourglass_bellydance_387.jpg");
     background-size: cover;
     background-position: center top;
 
@@ -417,16 +417,16 @@ hero--address p {
     background: $pink;
 }
 
-
 .studio--images {
-  width: 40%;
-
-  img {
-    max-width: 460px;
-    display: block;
-    padding-bottom: 3em;
-  }
+    width: 55%;
 }
+
+
+.studio--images img {
+    max-width: 48%;
+    padding-bottom: 0px;
+}
+
 
 
 .studio--text {
@@ -675,6 +675,10 @@ h6 {
   body.home {
     background-size: cover;
     background-position: center bottom;
+}
+
+.hero {
+    height: 3bu5vh;
 }
 
 #hero--address {
