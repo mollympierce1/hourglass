@@ -1,9 +1,47 @@
-<div class="videos">
-	{% for video in site.data.videos %}
-  <div class="video">
-    {{ video.iframe }}
-    <h3>{{ video.title }}</h3>
-    <p>{{ video.detail }}</p>
+<div class="press">
+	<h1>In The Press</h1>
+	{% for press in site.data.press %}
+  <div class="press--single flex flex-wrap">
+    <div class="thirty-five">
+			<a href="{{ press.link }}"><img src="/images/{{ press.photo }}" /></a>
+		</div>
+		<div class="sixty">
+			<a href="{{ press.link }}"><h3>"{{ press.title }}"</h3></a>
+	    <h6>{{ press.detail }}</h6>
+			<p>"{{ press.quote }}"</p>
+			<a href="{{ press.link }}">READ MORE</a>
+		</div>
   </div>
   {% endfor %}
+
+<h3 style="margin-top: 3em;margin-bottom: 0px">Belly Dance Class Offers Life Gains</h3>
+<p>by Alissa Mejia</p>
+<h6>Corpus Christi Caller Times</h6>
+<p>
+	"When Lorrie Pierce, owner of Hourglass Bellydance Studio, contacted me about writing about belly dancing, I felt excited and nervous — excited because I have wanted for a while to explore dance as a fitness option, but nervous because that also meant I would have to get out of my comfort zone and try something requiring coordination.
+</p>
+<p>
+	What ended up surprising me most about the experience, however, was learning how many common assumptions about belly dancing are wrong. First off, a stereotypical “dancer’s body” is not required. “It’s for all women,” Pierce said. “At shows we see grade school through grandmas — all shapes, sizes, and ethnicities.”
+</p>
+<p>
+	Second, the term “belly dance” itself is a misnomer. The dance requires full-body engagement, with a focus on the hips. Dancers undulate the torso muscles, but just as important — and challenging — is isolating specific muscles meant to remain still.
+	Part of the dance’s appeal is its no-impact nature. The initial steps are accessible to even a complete beginner, as I found. That does not make it easy, though.
+</p>
+<p>
+	Tammy Umberson, who began classes five years ago, said her daughter discovered this during a recent visit.
+	“She came to a class with me and said, ‘mom, this is so hard. I can’t believe how hard it is,’ ” Umberson said. “And she works out like a fiend. She can do a handstand for like five minutes.”
+</p>
+<p>
+	While belly dancing is an ancient art practiced by men and women, Pierce focuses exclusively on women’s classes. She offers a six-week fundamentals class focusing on learning movements, posture and technique. She also offers drills classes for practicing specific techniques, and beginner, intermediate and advanced classes on choreography.
+</p>
+<p>
+	Admittedly, this dance’s frequent focus on women, women’s body motions and bare midriffs had me wondering how healthy belly dancing is for body image and feminism in general. That worry turned out to be my third misconception. Qualitative research has found that women practicing belly dancing describe increases in physical and mental well-being. One only needs to step into the studio, however, to hear real-life tales of how an art that develops control of posture, strength and movement can translate into broader life gains.
+</p>
+<p>
+	“As a female it’s a very empowering feeling when everything is limber, you’re feeling flexible and you realize it’s OK to move this way,” said Kimberly Kissoon, a Del Mar College student majoring in dance and biotechnology.
+</p>
+<p>
+	Umberson said the empowerment surprised her as well.
+	“For the first full year I came here, I would not look in the mirror,” she said. “I refused. Then one day I saw myself and thought, ‘That’s me. I can’t believe it.’ ”
+</p>
 </div>

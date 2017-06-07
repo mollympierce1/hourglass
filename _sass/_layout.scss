@@ -80,6 +80,10 @@ a.button {
   width: 30%;
 }
 
+.thirty-five {
+  width: 35%;
+}
+
 .forty {
   width: 40%;
 }
@@ -97,7 +101,7 @@ a.button {
 }
 
 @media screen and (max-width: 640px) {
-.twenty, .twenty-five, .thirty, .forty, .fifty, .sixty, .seventy-five { width: 100%;}
+.twenty, .twenty-five, .thirty, .thirty-five, .forty, .fifty, .sixty, .seventy-five { width: 100%;}
 
 .no-display {
     display: none;
