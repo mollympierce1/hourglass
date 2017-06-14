@@ -206,10 +206,10 @@ header {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 1.5em;
+    padding-top: 1em;
     z-index: 100;
     position: relative;
-    padding-bottom: 1.5em;
+    padding-bottom: 0.5em;
     float: none;
     margin: 0px auto;
 }
@@ -237,7 +237,7 @@ nav {
         list-style: none;
         float: right;
         display: flex;
-        line-height: 2.5em;
+        line-height: 6;
     }
 
     li {
