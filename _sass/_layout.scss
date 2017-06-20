@@ -35,13 +35,16 @@ ul, li {
     list-style: none;
 }
 
+hr {
+  margin: 4em 0px;
+}
 
 a:hover {
   color: $pink;
 }
 
 .container {
-  padding: 6em;
+  padding: 7em;
 }
 
 .centered {
@@ -170,7 +173,7 @@ h1 {
 h3 {
     font-size: 2em;
     line-height: 1.5em;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 h4 {
@@ -676,13 +679,24 @@ h6 {
 
 @media screen and (max-width: 640px) {
 
+  nav ul {
+    line-height: 4;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin-top: 0px;
+    padding: 0px 0.5em;
+}
+
+
   body.home {
     background-size: cover;
     background-position: center bottom;
 }
 
 .hero {
-    height: 3bu5vh;
+    height: 30vh;
 }
 
 #hero--address {
