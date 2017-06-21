@@ -248,12 +248,14 @@ nav {
     }
 
     a {
-        color: $tan;
-        text-decoration: none;
-        letter-spacing: 1.3px;
-        font-size: 1em;
-        text-transform: uppercase;
-    }
+    color: $tan;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px $purple;
+    font-weight: 600;
+}
 
     a:hover {
       color: $pink;
@@ -268,13 +270,14 @@ nav {
 
 .hero {
     display: flex;
-    height: 40vh;
+    height: 70vh;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    background-image: url("/images/rsz_1hourglass_bellydance_387.jpg");
+    background-image: url(/images/hourglass-group-photo.png);
     background-size: cover;
-    background-position: center top;
+    background-position: center 10%;
+
 
     h1 {
       color: $green;
