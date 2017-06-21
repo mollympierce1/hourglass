@@ -208,6 +208,7 @@ h6 {
 
 header {
     width: 90%;
+    max-width: 1500px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 1em;
@@ -271,7 +272,7 @@ nav {
 
 .hero {
     display: flex;
-    height: 65vh;
+    height: 60vh;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
