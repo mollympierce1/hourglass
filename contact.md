@@ -15,3 +15,6 @@ The Hourglass Bellydance studio is located between Airline and Nile on South Pad
 <div class="thirty"><h5>Email:</h5>
 lorrie@hourglassbellydance.com</div>
 </div>
+<br />
+<br />
+<h5><a href="{{ site.url }}/resume/">View Lorrie's <span class="underline">Resume.</span></a></h5>

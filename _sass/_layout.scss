@@ -41,8 +41,17 @@ hr {
 }
 
 a:hover {
-  color: $pink;
+  color: $orange;
 }
+
+.underline {
+  border-bottom: 1px solid #fff;
+}
+
+.underline:hover {
+  border-bottom: 1px solid $orange;
+}
+
 
 .container {
   padding: 7em;
