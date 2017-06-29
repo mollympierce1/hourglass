@@ -8,7 +8,7 @@ permalink: /faq/
 No, all ages are welcome.  Currently, my student ages range from women in their twenties through seventies.
 
 ##### 2) Do you have to show your belly?
-No, you never have to show your belly.  There are even some professional belly dancer that never show their bellies!
+No, you never have to show your belly.  There are even some professional belly dancers that never show their bellies!
 
 ##### 3) Are students required to perform?
 No, students are never required to perform, but I do recommend it because it because we have such a blast!
