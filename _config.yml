@@ -16,7 +16,7 @@
 title: Hourglass Bellydance
 email: lorrie@hourglassbellydance.com
 description:
-url: "http://hourglassbellydance.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "www.hourglassbellydance.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
